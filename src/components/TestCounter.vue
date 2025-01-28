@@ -13,7 +13,7 @@ const increment = () => {
   counterStore.increment()
 }
 
-defineOptions({ name: "TestCounter"})
+defineOptions({ name: 'TestCounter' })
 </script>
 
 <template>

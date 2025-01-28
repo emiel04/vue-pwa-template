@@ -14,7 +14,6 @@ app {
   width: 100dvw;
 }
 
-
 nav {
   width: 100%;
   font-size: 12px;

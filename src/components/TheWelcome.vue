@@ -10,11 +10,10 @@ import { useCounterStore } from '@/stores/counter.ts'
 const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
 
 const counter = useCounterStore()
-
 </script>
 
 <template>
-  <p @click="counter.increment()">{{counter.$state.count}}</p>
+  <p @click="counter.increment()">{{ counter.$state.count }}</p>
 
   <WelcomeItem>
     <template #icon>
